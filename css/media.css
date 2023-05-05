@@ -1,3 +1,193 @@
-@media (max-width: 767px) {
-   
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .container {
+        padding: 30px;
+        padding-bottom: 0;
+    }
+    .logo {
+        font-size: 30px !important;
+        line-height: 45px !important;
+    }
+    .menu li a {
+        font-size: 16px !important;
+    }
+    .button button {
+        font-size: 18px !important;
+        max-width: 160px !important;
+        height: 50px !important;
+    }
+    .button button:hover{
+        font-size: 24px !important;
+    }
+
+    .learn h1 {
+        font-size: 48px !important;
+    }
+    .learn img {
+        max-width: 90px !important;
+    }
+    .learn p {
+        font-size: 20px !important;
+    }
+    .learn button {
+        font-size: 24px !important;
+        padding: 22px 79px
+    }
+
+    .skills {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .skills h1 {
+        font-size: 36px !important;
+    }
+
+    .skills_content h2 {
+        font-size: 22px !important;
+    }
+    .skills_content p {
+        font-size: 14px !important;
+    }
+    .skills_content p br {
+        display: none;
+    }
+    .skills_content a {
+        font-size: 18px !important;
+        padding: 17px 41px !important;
+        max-width: 196px;
+    }
+    .skills_content div:nth-child(1) {
+        padding: 0px 22px 50px 21px;
+    }
+    .skills_content div:nth-child(1) img {
+        max-width: 260px;
+    }
+    .skills_content div:nth-child(2) div{
+        padding: 0px 10px 30px 30px;
+    }
+    .skills_content div:nth-child(2) img {
+        max-width: 202px;
+        margin-bottom: 20px;
+    }
+    .skills_content div:nth-child(2) div a {
+        padding: 17px 41px !important;
+        max-width: 196px;
+    }
+    .skills_content div:nth-child(3){
+        padding: 10px 50px 30px 25px;
+    }
+    .skills_content div:nth-child(3) div{
+        padding: 0;
+    }
+    .skills_content div:nth-child(3) img {
+        max-width: 243px;
+        margin-left: -30px;
+    }
+    .skills_content div:nth-child(3) div a {
+        padding: 17px 41px !important;
+        max-width: 196px;
+        margin-top: 15px;
+    }
+    .skills_content div:nth-child(4){
+        padding: 30px 20px 30px 30px;
+    }
+    .skills_content div:nth-child(4) div{
+        padding: 0;
+    }
+    .skills_content div:nth-child(4) img {
+        max-width: 254px;
+    }
+    .skills_content div:nth-child(4) div a {
+        padding: 17px 41px !important;
+        max-width: 196px;
+    }
+
+    .about {
+        margin-top: 100px;
+    }
+    .about_text h2 {
+        font-size: 36px;
+    }
+    .about_text p {
+        font-size: 16px;
+        width: 530px;
+    }
+    .about_numbers {
+        margin-top: 30px !important;
+        width: 70% !important;
+    }
+    .about_numbers h2 {
+        font-size: 30px;
+    }
+    .about_numbers p {
+        font-size: 16px;
+    }
+    
+    .price {
+        margin-top: 130px;
+    }
+    .price_h h1 {
+        font-size: 36px;
+    }
+    .pricing {
+        grid-template-rows: 242px 40px 80px 50px;
+    }
+    .pricing div h1 {
+        font-size: 22px;
+    }
+    .pricing div p {
+        font-size: 16px;
+        width: 300px;
+    }
+    .pricing div a {
+        max-width: 205px;
+        font-size: 24px;
+        padding: 5px;
+    }
+    .pricing div a span {
+        font-size: 16px;
+    }
+    .pricing div:nth-child(1) img{
+        max-width: 222px;
+    }
+    .pricing div:nth-child(5) img{
+        max-width: 267px;
+    }
+    .pricing div:nth-child(9) img{
+        max-width: 242px;
+    }
+
+    .contact {
+        margin-top: 140px;
+        margin-bottom: 30px;
+    }
+    .contact img {
+        max-width: 312px;
+    }
+    .form h1 {
+        font-size: 36px;
+    }
+    .form p {
+        font-size: 16px;
+        width: 450px;
+    }
+    form input {
+        padding: 23px 0px 16px 38px !important;
+    }
+    form input::placeholder {
+        font-size: 14px;
+    }
+    form button {
+        font-size: 16px !important;
+        padding: 21px 0px 15px 0px !important;
+    }
+
+    .footer {
+        margin-top: 35px !important;
+        margin-bottom: 30px !important;
+    }
+    .list ul {
+        font-size: 16px !important;
+    }
+
 }

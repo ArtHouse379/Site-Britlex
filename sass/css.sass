@@ -18,6 +18,8 @@ body, ul, li, div, p, span, button,
     width: 100%
     max-width: 1368px
     padding: 50px 10px
+    padding-bottom: 0
+    box-sizing: border-box
 .header
     margin-bottom: 50px
     .logo
@@ -41,17 +43,21 @@ body, ul, li, div, p, span, button,
                 color: #263238
     .button
         button
-            width: 220px
+            width: 100%
+            max-width: 220px
             height: 70px
             border-radius: 5px
             font-size: 24px
             background-color: #fff
             border: 2px solid #263238
-        button:hover
-            transform: scale(1.1)
+            box-sizing: border-box
+        button:hover 
+            font-size: 30px
 .bigphoto
     align-items: center
     .learn
+        width: 100%
+        height: auto
         padding-left: 15px
         h1
             margin-top: 22px
@@ -80,8 +86,8 @@ body, ul, li, div, p, span, button,
         button:hover
             background: #2f434d
     .big
-        img
-            max-width: 661px
+        width: 100%
+        img 
             width: 100%
 .skills
     margin-top: 125px
@@ -120,7 +126,7 @@ body, ul, li, div, p, span, button,
         line-height: 27px
         padding: 17px 51px
     a:hover
-        background: #151f24
+        background: #2f434d
         transform: scale(1.1)
         text-decoration: none
     div:nth-child(1)
@@ -135,6 +141,7 @@ body, ul, li, div, p, span, button,
         img
             width: 100%
             max-width: 390px
+            margin: 0 auto
         a
             margin-top: 40px
     div:nth-child(2)
@@ -206,6 +213,7 @@ body, ul, li, div, p, span, button,
             max-width: 382px
 .about
     margin-top: 230px
+    align-items: center
     h2
         font-family: PoppinsSB
         font-size: 48px
@@ -214,13 +222,12 @@ body, ul, li, div, p, span, button,
         color: #8f95a5
     img
         width: 100%
-        max-width: 500px
     .about_text
         margin-top: 40px
         p
             margin-top: 35px
     .about_numbers
-        width: 80%
+        width: 93%
         margin-top: 50px
         div:first-child
             margin-right: 30px
@@ -261,7 +268,7 @@ body, ul, li, div, p, span, button,
             span
                 font-size: 18px
                 color: #546269
-                vertical-align: super
+                vertical-align: middle
         a:hover
             text-decoration: none
             background-color: #bbbbbb
@@ -319,10 +326,9 @@ body, ul, li, div, p, span, button,
         grid-row: 4/5
 .contact
     margin-top: 290px
-    margin-bottom: 30px
     img
         width: 100%
-        margin-left: -20px
+        align-self: flex-start
 .form
     margin-top: 45px
     h1
@@ -338,8 +344,7 @@ body, ul, li, div, p, span, button,
         margin-bottom: 190px
         input
             width: 58%
-            height: 80px
-            padding-left: 33px
+            padding: 23px 0px 16px 38px
             border: 1px solid #8f95a5
             border-radius: 10px
             ::placeholder
@@ -347,12 +352,16 @@ body, ul, li, div, p, span, button,
                 color: #8f95a5
         button
             width: 34%
-            height: 85px
+            padding: 23px 0px 16px 0px
+            text-align: center
             font-size: 20px
             background-color: #263238
             border-radius: 10px
             color: #fff
             margin-left: 5px
+        button:hover
+            background-color: #2f434d
+
 hr
     width: 100%
     color: #C4C4C4
@@ -361,6 +370,7 @@ footer
     margin-bottom: 60px
     .row
         align-items: baseline
+        justify-content: space-between
         .logo
             font-size: 36px
             a
