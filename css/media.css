@@ -1,193 +1,496 @@
 @media (min-width: 992px) and (max-width: 1200px) {
 
-    .container {
-        padding: 30px;
-        padding-bottom: 0;
-    }
-    .logo {
-        font-size: 30px !important;
-        line-height: 45px !important;
-    }
-    .menu li a {
-        font-size: 16px !important;
-    }
-    .button button {
-        font-size: 18px !important;
-        max-width: 160px !important;
-        height: 50px !important;
-    }
-    .button button:hover{
-        font-size: 24px !important;
-    }
+  .container {
+    padding: 30px;
+    padding-bottom: 0;
+  }
 
-    .learn h1 {
-        font-size: 48px !important;
-    }
-    .learn img {
-        max-width: 90px !important;
-    }
-    .learn p {
-        font-size: 20px !important;
-    }
-    .learn button {
-        font-size: 24px !important;
-        padding: 22px 79px
-    }
+  .logo {
+    font-size: 30px !important;
+    line-height: 45px !important;
+  }
 
-    .skills {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .skills h1 {
-        font-size: 36px !important;
-    }
+  .menu li a {
+    font-size: 16px !important;
+  }
 
-    .skills_content h2 {
-        font-size: 22px !important;
-    }
-    .skills_content p {
-        font-size: 14px !important;
-    }
-    .skills_content p br {
-        display: none;
-    }
-    .skills_content a {
-        font-size: 18px !important;
-        padding: 17px 41px !important;
-        max-width: 196px;
-    }
-    .skills_content div:nth-child(1) {
-        padding: 0px 22px 50px 21px;
-    }
-    .skills_content div:nth-child(1) img {
-        max-width: 260px;
-    }
-    .skills_content div:nth-child(2) div{
-        padding: 0px 10px 30px 30px;
-    }
-    .skills_content div:nth-child(2) img {
-        max-width: 202px;
-        margin-bottom: 20px;
-    }
-    .skills_content div:nth-child(2) div a {
-        padding: 17px 41px !important;
-        max-width: 196px;
-    }
-    .skills_content div:nth-child(3){
-        padding: 10px 50px 30px 25px;
-    }
-    .skills_content div:nth-child(3) div{
-        padding: 0;
-    }
-    .skills_content div:nth-child(3) img {
-        max-width: 243px;
-        margin-left: -30px;
-    }
-    .skills_content div:nth-child(3) div a {
-        padding: 17px 41px !important;
-        max-width: 196px;
-        margin-top: 15px;
-    }
-    .skills_content div:nth-child(4){
-        padding: 30px 20px 30px 30px;
-    }
-    .skills_content div:nth-child(4) div{
-        padding: 0;
-    }
-    .skills_content div:nth-child(4) img {
-        max-width: 254px;
-    }
-    .skills_content div:nth-child(4) div a {
-        padding: 17px 41px !important;
-        max-width: 196px;
-    }
+  .button button {
+    font-size: 18px !important;
+    max-width: 160px !important;
+    height: 50px !important;
+  }
 
-    .about {
-        margin-top: 100px;
-    }
-    .about_text h2 {
-        font-size: 36px;
-    }
-    .about_text p {
-        font-size: 16px;
-        width: 530px;
-    }
-    .about_numbers {
-        margin-top: 30px !important;
-        width: 70% !important;
-    }
-    .about_numbers h2 {
-        font-size: 30px;
-    }
-    .about_numbers p {
-        font-size: 16px;
-    }
-    
-    .price {
-        margin-top: 130px;
-    }
-    .price_h h1 {
-        font-size: 36px;
-    }
-    .pricing {
-        grid-template-rows: 242px 40px 80px 50px;
-    }
-    .pricing div h1 {
-        font-size: 22px;
-    }
-    .pricing div p {
-        font-size: 16px;
-        width: 300px;
-    }
-    .pricing div a {
-        max-width: 205px;
-        font-size: 24px;
-        padding: 5px;
-    }
-    .pricing div a span {
-        font-size: 16px;
-    }
-    .pricing div:nth-child(1) img{
-        max-width: 222px;
-    }
-    .pricing div:nth-child(5) img{
-        max-width: 267px;
-    }
-    .pricing div:nth-child(9) img{
-        max-width: 242px;
-    }
+  .button button:hover {
+    font-size: 24px !important;
+  }
 
-    .contact {
-        margin-top: 140px;
-        margin-bottom: 30px;
-    }
-    .contact img {
-        max-width: 312px;
-    }
-    .form h1 {
-        font-size: 36px;
-    }
-    .form p {
-        font-size: 16px;
-        width: 450px;
-    }
-    form input {
-        padding: 23px 0px 16px 38px !important;
-    }
-    form input::placeholder {
-        font-size: 14px;
-    }
-    form button {
-        font-size: 16px !important;
-        padding: 21px 0px 15px 0px !important;
-    }
+  .learn h1 {
+    font-size: 48px !important;
+    line-height: 64px !important;
+  }
 
-    .footer {
-        margin-top: 35px !important;
-        margin-bottom: 30px !important;
-    }
-    .list ul {
-        font-size: 16px !important;
-    }
+  .learn img {
+    max-width: 90px !important;
+  }
 
+  .learn p {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+
+  .learn button {
+    font-size: 24px !important;
+    padding: 22px 79px
+  }
+
+  .skills {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .skills h1 {
+    font-size: 36px !important;
+  }
+
+  .skills_content h2 {
+    font-size: 22px !important;
+  }
+
+  .skills_content p {
+    font-size: 14px !important;
+  }
+
+  .skills_content p br {
+    display: none;
+  }
+
+  .skills_content a {
+    font-size: 18px !important;
+    padding: 17px 41px !important;
+    max-width: 196px;
+  }
+
+  .skills_content div:nth-child(1) {
+    padding: 0px 22px 50px 21px;
+  }
+
+  .skills_content div:nth-child(1) img {
+    max-width: 260px;
+  }
+
+  .skills_content div:nth-child(2) div {
+    padding: 0px 10px 30px 30px;
+  }
+
+  .skills_content div:nth-child(2) img {
+    max-width: 202px;
+    margin-bottom: 20px;
+  }
+
+  .skills_content div:nth-child(2) div a {
+    padding: 17px 41px !important;
+    max-width: 196px;
+  }
+
+  .skills_content div:nth-child(3) {
+    padding: 10px 50px 30px 25px;
+  }
+
+  .skills_content div:nth-child(3) div {
+    padding: 0;
+  }
+
+  .skills_content div:nth-child(3) img {
+    max-width: 243px;
+    margin-left: -30px;
+  }
+
+  .skills_content div:nth-child(3) div a {
+    padding: 17px 41px !important;
+    max-width: 196px;
+    margin-top: 15px;
+  }
+
+  .skills_content div:nth-child(4) {
+    padding: 30px 20px 30px 30px;
+  }
+
+  .skills_content div:nth-child(4) div {
+    padding: 0;
+  }
+
+  .skills_content div:nth-child(4) img {
+    max-width: 254px;
+  }
+
+  .skills_content div:nth-child(4) div a {
+    padding: 17px 41px !important;
+    max-width: 196px;
+  }
+
+  .about {
+    margin-top: 100px;
+  }
+
+  .about_text h2 {
+    font-size: 36px;
+  }
+
+  .about_text p {
+    font-size: 16px;
+    width: 530px;
+  }
+
+  .about_numbers {
+    margin-top: 30px !important;
+    width: 70% !important;
+  }
+
+  .about_numbers h2 {
+    font-size: 30px;
+  }
+
+  .about_numbers p {
+    font-size: 16px;
+  }
+
+  .price {
+    margin-top: 130px;
+  }
+
+  .price_h h1 {
+    font-size: 36px;
+  }
+
+  .pricing {
+    grid-template-rows: 242px 40px 80px 50px;
+  }
+
+  .pricing div h1 {
+    font-size: 22px;
+  }
+
+  .pricing div p {
+    font-size: 16px;
+    width: 300px;
+  }
+
+  .pricing div a {
+    max-width: 205px;
+    font-size: 24px;
+    padding: 5px;
+  }
+
+  .pricing div a span {
+    font-size: 16px;
+  }
+
+  .pricing div:nth-child(1) img {
+    max-width: 222px;
+  }
+
+  .pricing div:nth-child(5) img {
+    max-width: 267px;
+  }
+
+  .pricing div:nth-child(9) img {
+    max-width: 242px;
+  }
+
+  .contact {
+    margin-top: 140px;
+    margin-bottom: 30px;
+  }
+
+  .contact img {
+    max-width: 312px;
+  }
+
+  .form h1 {
+    font-size: 36px;
+  }
+
+  .form p {
+    font-size: 16px;
+    width: 450px;
+  }
+
+  form input {
+    padding: 23px 0px 16px 38px !important;
+  }
+
+  form input::placeholder {
+    font-size: 14px;
+  }
+
+  form button {
+    font-size: 16px !important;
+    padding: 21px 0px 15px 0px !important;
+  }
+
+  .footer {
+    margin-top: 35px !important;
+    margin-bottom: 30px !important;
+  }
+
+  .list ul {
+    font-size: 16px !important;
+  }
+
+}
+
+@media (min-width: 767px) and (max-width: 991.99px) {
+  .container {
+    padding: 40px;
+    padding-bottom: 0;
+  }
+
+  .logo {
+    font-size: 30px !important;
+    line-height: 45px !important;
+  }
+
+  .menu li a {
+    font-size: 14px !important;
+  }
+
+  .button button {
+    font-size: 18px !important;
+    max-width: 160px !important;
+    height: 50px !important;
+  }
+
+  .button button:hover {
+    font-size: 24px !important;
+  }
+
+  .learn h1 {
+    font-size: 36px !important;
+    line-height: 45px !important;
+  }
+
+  .learn img {
+    max-width: 80px !important;
+  }
+
+  .learn p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .learn button {
+    font-size: 18px !important;
+    padding: 19px 67px !important;
+  }
+
+  .skills {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .skills h1 {
+    font-size: 30px !important;
+    line-height: 80px !important;
+  }
+
+  .skills_content h2 {
+    height: 25px !important;
+    font-size: 20px !important;
+    margin: 0 !important;
+  }
+
+  .skills_content p {
+    font-size: 13px !important;
+    line-height: 20px !important;
+    margin-top: 10px !important;
+  }
+
+  .skills_content p br {
+    display: none;
+  }
+
+  .skills_content a {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    padding: 14px 42px !important;
+    max-width: 178px !important;
+    margin-top: 15px;
+  }
+
+  .skills_content div:nth-child(1) {
+    padding: 31px 9px 35px 15px;
+  }
+
+  .skills_content div:nth-child(1) img {
+    max-width: 214px;
+  }
+
+  .skills_content div:nth-child(1) div {
+    padding: 0;
+  }
+
+  .skills_content div:nth-child(2) {
+    padding: 5px 0px 27px 16px;
+  }
+
+  .skills_content div:nth-child(2) div {
+    padding: 0;
+  }
+
+  .skills_content div:nth-child(2) img {
+    align-self: flex-start;
+    max-width: 200px !important;
+  }
+
+  .skills_content div:nth-child(3) {
+    padding: 20px 14px 25px 20px;
+  }
+
+  .skills_content div:nth-child(3) div {
+    padding: 0;
+    padding-right: 10px;
+  }
+
+  .skills_content div:nth-child(3) img {
+    max-width: 216px;
+    margin-left: -20px;
+    margin-bottom: 35px;
+  }
+
+  .skills_content div:nth-child(4) {
+    padding: 20px 0px 20px 20px;
+  }
+
+  .skills_content div:nth-child(4) div {
+    align-self: flex-start;
+    padding: 0;
+  }
+
+  .skills_content div:nth-child(4) img {
+    align-self: flex-end;
+    max-width: 202px;
+  }
+
+  .about {
+    margin-top: 80px;
+  }
+
+  .about_text h2 {
+    font-size: 30px;
+  }
+
+  .about_text p {
+    font-size: 14px;
+    width: 340px;
+  }
+
+  .about_numbers {
+    margin-top: 30px !important;
+    width: 80% !important;
+  }
+
+  .about_numbers h2 {
+    font-size: 22px;
+  }
+
+  .about_numbers p {
+    font-size: 13px;
+  }
+
+  .price {
+    margin-top: 90px;
+  }
+
+  .price_h h1 {
+    font-size: 30px;
+  }
+
+  .pricing {
+    grid-template-rows: 210px 60px 130px 50px;
+  }
+
+  .pricing div h1 {
+    font-size: 20px;
+  }
+
+  .pricing div p {
+    font-size: 14px;
+    width: 220px;
+  }
+
+  .pricing div a {
+    max-width: 205px;
+    font-size: 22px;
+    padding: 5px;
+  }
+
+  .pricing div a span {
+    font-size: 16px;
+  }
+
+  .pricing div:nth-child(1) img {
+    max-width: 197px;
+  }
+
+  .pricing div:nth-child(5) img {
+    max-width: 219px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .pricing div:nth-child(9) img {
+    max-width: 210px;
+  }
+
+  .contact {
+    margin-top: 90px;
+    margin-bottom: 30px;
+  }
+
+  .contact img {
+    max-width: 233px;
+  }
+
+  .form {
+    margin: 0;
+  }
+
+  .form h1 {
+    font-size: 30px !important;
+  }
+
+  .form p {
+    font-size: 14px;
+    line-height: 21px;
+    width: 390px;
+    margin: 0;
+  }
+
+  .form form {
+    margin-top: 25px;
+    margin-bottom: 110px;
+  }
+
+  form input {
+    padding: 16px 0px 16px 25px !important;
+  }
+
+  form input::placeholder {
+    font-size: 12px;
+  }
+
+  form button {
+    font-size: 13px !important;
+    line-height: 20px !important;
+    padding: 15px 0px 15px 0px !important;
+  }
+
+  .footer {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .list ul {
+    font-size: 13px !important;
+  }
 }

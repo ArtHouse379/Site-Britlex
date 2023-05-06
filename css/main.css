@@ -146,9 +146,6 @@ body, ul, li, div, p, span, button {
     padding: 17px 51px; }
   .skills_content a:hover {
     background: #2f434d;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
     text-decoration: none; }
   .skills_content div:nth-child(1) {
     display: -webkit-box;
