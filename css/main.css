@@ -93,7 +93,8 @@ body, ul, li, div, p, span, button {
       background: #263238;
       border-radius: 15px;
       padding: 32px 117px;
-      margin-top: 60px; }
+      margin-top: 60px;
+      border: none; }
     .bigphoto .learn button:hover {
       background: #2f434d; }
   .bigphoto .big {
@@ -265,6 +266,13 @@ body, ul, li, div, p, span, button {
       order: 3;
       width: 100%;
       max-width: 382px; }
+
+.hidden-about {
+  display: none; }
+  .hidden-about h1 {
+    font-family: PoppinsSB;
+    font-size: 48px;
+    text-align: center; }
 
 .about {
   margin-top: 230px;

@@ -60,10 +60,6 @@
     font-size: 14px !important;
   }
 
-  .skills_content p br {
-    display: none;
-  }
-
   .skills_content a {
     font-size: 18px !important;
     padding: 17px 41px !important;
@@ -305,10 +301,6 @@
     margin-top: 10px !important;
   }
 
-  .skills_content p br {
-    display: none;
-  }
-
   .skills_content a {
     font-size: 16px !important;
     line-height: 24px !important;
@@ -492,5 +484,424 @@
 
   .list ul {
     font-size: 13px !important;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 766.99px) {
+  .container {
+    padding: 40px;
+    padding-bottom: 0;
+  }
+
+  .header {
+    margin-bottom: 10px;
+  }
+
+  .logo {
+    font-size: 30px !important;
+    line-height: 45px !important;
+  }
+
+  .menu {
+    display: none !important;
+  }
+
+  .button button {
+    display: none;
+  }
+
+  .bigphoto-text {
+    order: 2;
+  }
+
+  .big {
+    order: 1;
+    text-align: center;
+  }
+
+  .big img {
+    max-width: 492px;
+  }
+
+  .learn {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .learn h1 {
+    font-size: 34px !important;
+    line-height: 45px !important;
+    margin-top: 15px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .learn h1 br {
+    display: none;
+  }
+
+  .learn img {
+    display: none !important;
+  }
+
+  .learn p {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    margin-bottom: 35px !important;
+    padding: 0px 60px;
+  }
+
+  .learn p br {
+    display: none;
+  }
+
+  .learn button {
+    max-width: 305px;
+    font-size: 18px !important;
+    padding: 24px 100px !important;
+    margin: 0 auto !important;
+  }
+
+  .skills {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .skills h1 {
+    font-size: 30px !important;
+    line-height: 80px !important;
+  }
+
+  .skills_content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 34px;
+  }
+
+  .skills_content div:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100%;
+  }
+
+  .skills_content div:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 100%;
+  }
+
+  .skills_content div:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 100%;
+  }
+
+  .skills_content div:nth-child(4) {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .skills_content h2 {
+    height: auto !important;
+    font-size: 18px !important;
+    margin: 0 !important;
+  }
+
+  .skills_content p {
+    font-size: 12px !important;
+    line-height: 18px !important;
+    margin-top: 10px !important;
+  }
+
+  .skills_content a {
+    font-size: 14px !important;
+    line-height: 21px !important;
+    padding: 14px 53px !important;
+    max-width: 200px !important;
+  }
+
+  .skills_content div:nth-child(1) {
+    padding: 0px 23px 36px 15px;
+  }
+
+  .skills_content div:nth-child(1) img {
+    max-width: 185px;
+    margin-bottom: 20px;
+  }
+
+  .skills_content div:nth-child(1) div {
+    padding: 0;
+    padding-right: 49px;
+  }
+
+  .skills_content div:nth-child(2) {
+    padding: 5px 24px 36px 16px;
+  }
+
+  .skills_content div:nth-child(2) div {
+    padding: 0;
+    padding-right: 58px;
+  }
+
+  .skills_content div:nth-child(2) img {
+    align-self: flex-start;
+    max-width: 200px !important;
+  }
+
+  .skills_content div:nth-child(3) {
+    padding: 20px 25px 36px 16px;
+  }
+
+  .skills_content div:nth-child(3) div {
+    padding: 0;
+    padding-right: 45px;
+  }
+
+  .skills_content div:nth-child(3) img {
+    max-width: 198px;
+    margin-left: -20px;
+    margin-bottom: 35px;
+  }
+
+  .skills_content div:nth-child(4) {
+    padding: 38px 24px 36px 16px;
+  }
+
+  .skills_content div:nth-child(4) div {
+    order: 2;
+    padding: 0;
+    padding-right: 55px;
+  }
+
+  .skills_content div:nth-child(4) img {
+    order: 1;
+    max-width: 206px;
+  }
+
+  .skills_content div:nth-child(4) a {
+    order: 3;
+  }
+
+  .about {
+    margin-top: 90px;
+    text-align: center;
+  }
+
+  .about_photo {
+    order: 1;
+    text-align: center !important;
+  }
+
+  .about_photo img {
+    max-width: 352px;
+  }
+
+  .about_block {
+    order: 2;
+  }
+
+  .hidden-about {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .hidden-about h1 {
+    font-size: 30px !important;
+  }
+
+  .about_text h2 {
+    display: none;
+  }
+
+  .about_text p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .about_numbers {
+    margin-top: 50px !important;
+    width: 80% !important;
+    margin: 0 auto;
+  }
+
+  .about_numbers h2 {
+    font-size: 24px;
+  }
+
+  .about_numbers p {
+    font-size: 14px;
+  }
+
+  .price {
+    margin-top: 130px;
+  }
+
+  .price_h h1 {
+    font-size: 30px;
+  }
+
+  .pricing-row{
+    justify-content: center;
+  }
+
+  .pricing {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, max-content);
+    justify-items: center;
+    text-align: center;
+  }
+
+  .pricing div:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .pricing div:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .pricing div:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .pricing div:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  .pricing div:nth-child(5) {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+
+  .pricing div:nth-child(6) {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+
+  .pricing div:nth-child(7) {
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+
+  .pricing div:nth-child(8) {
+    grid-column: 1/2;
+    grid-row: 8/9;
+  }
+
+  .pricing div:nth-child(9) {
+    grid-column: 1/2;
+    grid-row: 9/10;
+  }
+
+  .pricing div:nth-child(10) {
+    grid-column: 1/2;
+    grid-row: 11/12;
+  }
+
+  .pricing div:nth-child(11) {
+    grid-column: 1/2;
+    grid-row: 12/13;
+  }
+
+  .pricing div:nth-child(12) {
+    grid-column: 1/2;
+    grid-row: 13/14;
+  }
+
+  .pricing div h1 {
+    font-size: 24px;
+  }
+
+  .pricing div p {
+    font-size: 14px;
+    width: 390px;
+  }
+
+  .pricing div a {
+    max-width: 205px;
+    font-size: 22px;
+    padding: 5px;
+  }
+
+  .pricing div a span {
+    font-size: 16px;
+  }
+
+  .pricing div:nth-child(1) img {
+    max-width: 270px;
+  }
+
+  .pricing div:nth-child(5) img {
+    max-width: 314px;
+    padding: 0;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .pricing div:nth-child(9) img {
+    max-width: 253px;
+    margin-top: 70px;
+  }
+
+  .contact {
+    margin-top: 160px;
+    text-align: center;
+  }
+
+  .contact img {
+    max-width: 358px;
+    margin-top: 80px;
+  }
+
+  .form {
+    margin: 0;
+  }
+
+  .form h1 {
+    display: none;
+  }
+
+  .form p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  .form form {
+    margin-top: 60px;
+    margin-bottom: 140px;
+  }
+
+  form input {
+    padding: 20px 0px 20px 25px !important;
+    width: 100% !important;
+    position: relative;
+  }
+
+  form input::placeholder {
+    font-size: 13px;
+  }
+
+  form button {
+    font-size: 13px !important;
+    line-height: 20px !important;
+    padding: 24px 0px 24px 0px !important;
+    border: none;
+    position: absolute;
+    right: 0;
+  }
+
+  .footer {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .list ul {
+    font-size: 12px !important;
   }
 }
