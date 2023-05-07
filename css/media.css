@@ -40,7 +40,7 @@
 
   .learn button {
     font-size: 24px !important;
-    padding: 22px 79px
+    padding: 22px 79px;
   }
 
   .skills {
@@ -224,7 +224,7 @@
     padding: 21px 0px 15px 0px !important;
   }
 
-  .footer {
+  footer {
     margin-top: 35px !important;
     margin-bottom: 30px !important;
   }
@@ -277,6 +277,7 @@
   .learn button {
     font-size: 18px !important;
     padding: 19px 67px !important;
+    border-radius: 5px;
   }
 
   .skills {
@@ -477,7 +478,7 @@
     padding: 15px 0px 15px 0px !important;
   }
 
-  .footer {
+  footer {
     margin-top: 20px !important;
     margin-bottom: 20px !important;
   }
@@ -559,6 +560,7 @@
     font-size: 18px !important;
     padding: 24px 100px !important;
     margin: 0 auto !important;
+    border-radius: 5px;
   }
 
   .skills {
@@ -742,7 +744,7 @@
     font-size: 30px;
   }
 
-  .pricing-row{
+  .pricing-row {
     justify-content: center;
   }
 
@@ -896,7 +898,7 @@
     right: 0;
   }
 
-  .footer {
+  footer {
     margin-top: 20px !important;
     margin-bottom: 20px !important;
   }
@@ -904,4 +906,448 @@
   .list ul {
     font-size: 12px !important;
   }
+}
+
+@media (max-width: 574.99px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+
+  .logo {
+    font-size: 24px !important;
+    line-height: 36px !important;
+  }
+
+  .menu {
+    display: none !important;
+  }
+
+  .button button {
+    display: none;
+  }
+
+  .bigphoto-text {
+    order: 2;
+  }
+
+  .big {
+    order: 1;
+    text-align: center;
+  }
+
+  .big img {
+    max-width: 299px;
+  }
+
+  .learn {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 !important;
+  }
+
+  .learn h1 {
+    font-size: 24px !important;
+    line-height: 36px !important;
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .learn h1 br {
+    display: none;
+  }
+
+  .learn img {
+    display: none !important;
+  }
+
+  .learn p {
+    font-size: 14px !important;
+    line-height: 21px !important;
+    margin-bottom: 35px !important;
+  }
+
+  .learn p br {
+    display: none;
+  }
+
+  .learn button {
+    max-width: 289px;
+    font-size: 16px !important;
+    padding: 18px 99px !important;
+    margin: 0 auto !important;
+    border-radius: 5px;
+  }
+
+  .skills {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .skills h1 {
+    font-size: 30px !important;
+    line-height: 80px !important;
+  }
+
+  .skills_content {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 20px;
+  }
+
+  .skills_content div:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100%;
+  }
+
+  .skills_content div:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 100%;
+  }
+
+  .skills_content div:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 100%;
+  }
+
+  .skills_content div:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .skills_content h2 {
+    height: auto !important;
+    font-size: 18px !important;
+    margin: 0 !important;
+  }
+
+  .skills_content p {
+    font-size: 13px !important;
+    line-height: 20px !important;
+    margin-top: 10px !important;
+  }
+
+  .skills_content a {
+    font-size: 14px !important;
+    line-height: 21px !important;
+    padding: 14px 43px !important;
+    max-width: 178px !important;
+  }
+
+  .skills_content div:nth-child(1) {
+    padding: 8px 39px 45px 39px;
+  }
+
+  .skills_content div:nth-child(1) img {
+    max-width: 213px;
+    margin-bottom: 20px;
+  }
+
+  .skills_content div:nth-child(1) div {
+    padding: 0;
+  }
+
+  .skills_content div:nth-child(1) a {
+    margin-top: 30px;
+  }
+
+  .skills_content div:nth-child(2) {
+    padding: 16px 42px 44px 44px;
+  }
+
+  .skills_content div:nth-child(2) div {
+    padding: 0;
+  }
+
+  .skills_content div:nth-child(2) img {
+    align-self: center;
+    max-width: 204px !important;
+  }
+
+  .skills_content div:nth-child(3) {
+    padding: 29px 25px 44px 29px;
+  }
+
+  .skills_content div:nth-child(3) div {
+    padding: 0;
+  }
+
+  .skills_content div:nth-child(3) img {
+    max-width: 326px;
+    margin-left: 0px;
+    margin-bottom: 35px;
+  }
+
+  .skills_content div:nth-child(4) {
+    padding: 33px 29px 57px 29px;
+  }
+
+  .skills_content div:nth-child(4) div {
+    order: 2;
+    padding: 0;
+  }
+
+  .skills_content div:nth-child(4) img {
+    order: 1;
+    max-width: 232px;
+    align-self: center;
+    margin-bottom: 35px;
+  }
+
+  .skills_content div:nth-child(4) a {
+    order: 3;
+  }
+
+  .about {
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .about_photo {
+    order: 1;
+    text-align: center !important;
+  }
+
+  .about_photo img {
+    max-width: 283px;
+  }
+
+  .about_block {
+    order: 2;
+  }
+
+  .hidden-about {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .hidden-about h1 {
+    font-size: 24px !important;
+  }
+
+  .about_text h2 {
+    display: none;
+  }
+
+  .about_text p {
+    font-size: 13px;
+    width: 100%;
+  }
+
+  .about_numbers {
+    flex-direction: column;
+    margin-top: 50px !important;
+    width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .about_numbers div:first-child {
+    margin: 0px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .about_numbers div:nth-child(2) {
+    margin-bottom: 40px !important;
+  }
+
+  .about_numbers h2 {
+    font-size: 24px;
+  }
+
+  .about_numbers p {
+    font-size: 15px;
+  }
+
+  .price {
+    margin-top: 90px;
+    margin-bottom: 60px !important;
+  }
+
+  .price_h h1 {
+    font-size: 24px;
+  }
+
+  .pricing-row {
+    justify-content: center;
+  }
+
+  .pricing {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(100px, max-content);
+    justify-items: center;
+    text-align: center;
+  }
+
+  .pricing div:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .pricing div:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .pricing div:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .pricing div:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  .pricing div:nth-child(5) {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    padding: 0 !important;
+  }
+
+  .pricing div:nth-child(6) {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+
+  .pricing div:nth-child(7) {
+    grid-column: 1/2;
+    grid-row: 7/8;
+  }
+
+  .pricing div:nth-child(8) {
+    grid-column: 1/2;
+    grid-row: 8/9;
+  }
+
+  .pricing div:nth-child(9) {
+    grid-column: 1/2;
+    grid-row: 9/10;
+    padding: 0 !important;
+  }
+
+  .pricing div:nth-child(10) {
+    grid-column: 1/2;
+    grid-row: 11/12;
+  }
+
+  .pricing div:nth-child(11) {
+    grid-column: 1/2;
+    grid-row: 12/13;
+  }
+
+  .pricing div:nth-child(12) {
+    grid-column: 1/2;
+    grid-row: 13/14;
+  }
+
+  .pricing div h1 {
+    font-size: 18px;
+  }
+
+  .pricing div p {
+    font-size: 13px;
+  }
+
+  .pricing div a {
+    max-width: 170px;
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .pricing div a span {
+    font-size: 14px;
+  }
+
+  .pricing div:nth-child(1) img {
+    max-width: 248px;
+  }
+
+  .pricing div:nth-child(5) img {
+    max-width: 257px;
+    
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .pricing div:nth-child(9) img {
+    max-width: 241px;
+    margin-top: 70px;
+  }
+
+  .contact {
+    margin-top: 80px;
+    text-align: center;
+  }
+
+  .contact img {
+    max-width: 253px;
+    margin-top: 45px;
+  }
+
+  .form {
+    margin: 0;
+  }
+
+  .form h1 {
+    display: none;
+  }
+
+  .form p {
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+  }
+
+  .form form {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  form input {
+    padding: 16px 0px 16px 26px !important;
+    width: 100% !important;
+    margin-bottom: 17px;
+  }footer
+
+  form input::placeholder {
+    font-size: 12px;
+  }
+
+  form button {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    margin: 0 !important;
+    padding: 20px 0px 20px 0px !important;
+    border: none;
+    width: 100% !important;
+  }
+
+  footer {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  footer .logo a{
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .list ul {
+    width: 100%;
+    font-size: 11px !important;
+  }
+
 }
