@@ -36,7 +36,7 @@ body, ul, li, div, p, hr, span, button {
   left: 0;
   z-index: 2; }
   .hidden-block .menu-section {
-    width: 50%;
+    width: 60%;
     background-color: #fff;
     padding: 20px 15px 0px 40px; }
     .hidden-block .menu-section .logo {
@@ -89,7 +89,7 @@ body, ul, li, div, p, hr, span, button {
     .hidden-block .menu-section .button button:hover {
       font-size: 24px; }
   .hidden-block .black-pan {
-    width: 50%;
+    width: 40%;
     background-color: rgba(57, 81, 94, 0.8); }
 
 .header {
