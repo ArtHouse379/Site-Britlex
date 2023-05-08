@@ -18,24 +18,29 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div class="container">
-        <!--HIDDEN-MENU
-        <div class="hidden_menu">
-          <div class="menu_section">
-            <div class="logo">
-              <a href="https://github.com/ArtHouse379/Site-Britlex" target="_blank">Brit<span>lex</span></a>
-            </div>
-            <hr>
-            <ul class="menu">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Pricing</a></li>
-              <li><a href="#">Contacts</a></li>
-            </ul>
+      <!--HIDDEN-SIDENAV-->
+      <div class="hidden-block collapse col-md-12 col-sm-12" id="sidenav">
+        <div class="menu-section">
+          <div class="logo">
+            <a href="https://github.com/ArtHouse379/Site-Britlex" target="_blank">Brit<span>lex</span></a>
+            <button class="button" type="button" data-toggle="collapse" data-target="#sidenav" aria-expanded="false"
+              aria-controls="sidenav"><img src="img/close.png" alt="alt"></button>
+          </div>
+          <hr>
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+          <div class="button">
             <button>Let's Talk</button>
           </div>
-        </div>-->
+        </div>
+        <div class="black-pan"></div>
+      </div>
+      <div class="container">
         <!--HEADER-->
         <div class="row header d-flex justify-content-between align-items-center">
 
@@ -54,7 +59,15 @@
           <div
             class="button col-xl-3 col-lg-3 col-md-3 col-sm-3 offset-xl-1 offset-lg-0 offset-md-0 offset-sm-0 text-right">
             <button>Let's Talk</button>
-
+          </div>
+          <!--button-hidden-menu-->
+          <div class="hidden col-md-1 col-sm-1 offset-md-0 offset-sm-0">
+            <button class="hidden-menu" type="button" data-toggle="collapse" data-target="#sidenav"
+              aria-expanded="false" aria-controls="sidenav">
+              <p></p>
+              <p></p>
+              <p></p>
+            </button>
           </div>
         </div>
 
