@@ -498,17 +498,21 @@
     margin-bottom: 10px;
   }
 
-  .logo {
+  .header .logo {
     font-size: 30px !important;
     line-height: 45px !important;
   }
 
-  .menu {
+  .header .menu {
     display: none !important;
   }
 
-  .button button {
+  .header .button button {
     display: none;
+  }
+
+  .hidden {
+    display: block !important;
   }
 
   .bigphoto-text {
@@ -920,17 +924,21 @@
     margin-bottom: 30px;
   }
 
-  .logo {
+  .header .logo {
     font-size: 24px !important;
     line-height: 36px !important;
   }
 
-  .menu {
+  .header .menu {
     display: none !important;
   }
 
-  .button button {
+  .header .button button {
     display: none;
+  }
+
+  .hidden {
+    display: block !important;
   }
 
   .bigphoto-text {
