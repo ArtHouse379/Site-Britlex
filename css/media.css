@@ -5,9 +5,18 @@
     padding-bottom: 0;
   }
 
+  .hidden-block{
+    display: none;
+  }
+
   .logo {
     font-size: 30px !important;
     line-height: 45px !important;
+  }
+
+  .menu {
+    padding: 0;
+    margin-left: 7%;
   }
 
   .menu li a {
@@ -16,36 +25,38 @@
 
   .button button {
     font-size: 18px !important;
-    max-width: 160px !important;
-    height: 50px !important;
-  }
-
-  .button button:hover {
-    font-size: 24px !important;
+    max-width: 162px !important;
+    padding: 10px 40px !important;
   }
 
   .learn h1 {
     font-size: 48px !important;
     line-height: 64px !important;
+    margin-bottom: 30px !important;
   }
-
+  
   .learn img {
-    max-width: 90px !important;
+    top: 48% !important;
+    left: 67% !important;
+    max-width: 80px !important;
   }
 
   .learn p {
     font-size: 20px !important;
     line-height: 30px !important;
+    padding-right: 30px;
   }
 
   .learn button {
     font-size: 24px !important;
-    padding: 22px 79px;
+    padding: 22px 78px !important;
+    margin-top: 30px !important;
+    border-radius: 5px !important;
   }
 
   .skills {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 90px;
+    margin-bottom: 60px;
   }
 
   .skills h1 {
@@ -54,6 +65,7 @@
 
   .skills_content h2 {
     font-size: 22px !important;
+    margin: 0;
   }
 
   .skills_content p {
@@ -71,44 +83,55 @@
   }
 
   .skills_content div:nth-child(1) img {
-    max-width: 260px;
+    width: 260px;
+    height: auto;
+    margin: 0;
+  }
+  
+  .skills_content div:nth-child(1) div {
+    padding: 25px 10px 52px 10px;
+  }
+  
+  .skills_content div:nth-child(1) a {
+    margin-left: 10px !important;
+    margin-top: -20px !important;
+    padding: 17px 41px !important;
+    max-width: 196px;
   }
 
-  .skills_content div:nth-child(2) div {
-    padding: 0px 10px 30px 30px;
+  .skills_content div:nth-child(2) {
+    padding: 0px 10px 30px 27px;
   }
 
   .skills_content div:nth-child(2) img {
     max-width: 202px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
-  .skills_content div:nth-child(2) div a {
+  .skills_content div:nth-child(2) a {
     padding: 17px 41px !important;
     max-width: 196px;
+    margin-top: -20px !important;
   }
 
   .skills_content div:nth-child(3) {
-    padding: 10px 50px 30px 25px;
-  }
-
-  .skills_content div:nth-child(3) div {
-    padding: 0;
+    padding: 10px 30px 32px 27px;
   }
 
   .skills_content div:nth-child(3) img {
     max-width: 243px;
-    margin-left: -30px;
+    margin-left: -27px;
+    margin-bottom: 10px;
   }
 
-  .skills_content div:nth-child(3) div a {
+  .skills_content div:nth-child(3) a {
     padding: 17px 41px !important;
     max-width: 196px;
-    margin-top: 15px;
+    margin-top: -20px;
   }
 
   .skills_content div:nth-child(4) {
-    padding: 30px 20px 30px 30px;
+    padding: 20px 20px 34px 27px;
   }
 
   .skills_content div:nth-child(4) div {
@@ -119,27 +142,35 @@
     max-width: 254px;
   }
 
+  .skills_content div:nth-child(4) div p {
+    margin-top: -15px !important;
+  }
+
   .skills_content div:nth-child(4) div a {
     padding: 17px 41px !important;
     max-width: 196px;
+    margin-top: 10px !important;
   }
 
   .about {
-    margin-top: 100px;
+    margin-top: 90px;
   }
 
   .about_text h2 {
+    margin: 0 !important;
     font-size: 36px;
   }
 
   .about_text p {
+    margin-top: 25px !important;
     font-size: 16px;
     width: 530px;
   }
 
   .about_numbers {
     margin-top: 30px !important;
-    width: 70% !important;
+    padding-left: 10px;
+    width: 75% !important;
   }
 
   .about_numbers h2 {
@@ -150,8 +181,13 @@
     font-size: 16px;
   }
 
+  .about_photo img{
+    max-width: 336px;
+  }
+
   .price {
-    margin-top: 130px;
+    margin-top: 145px;
+    margin-bottom: 40px;
   }
 
   .price_h h1 {
@@ -194,25 +230,41 @@
   }
 
   .contact {
-    margin-top: 140px;
-    margin-bottom: 30px;
+    margin-top: 160px;
+    margin-bottom: 0px;
   }
 
   .contact img {
     max-width: 312px;
   }
 
+  .form {
+    margin-top: 10px;
+    padding: 0 !important;
+  }
+
   .form h1 {
     font-size: 36px;
+    padding-left: 30px;
   }
 
   .form p {
     font-size: 16px;
-    width: 450px;
+    line-height: 24px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 75px;
+  }
+
+  form {
+    margin-top: 35px !important;
+    margin-bottom: 190px !important;
   }
 
   form input {
-    padding: 23px 0px 16px 38px !important;
+    width: 57% !important;
+    margin-left: 20px;
+    padding: 17px 0px 17px 38px !important;
   }
 
   form input::placeholder {
@@ -220,12 +272,14 @@
   }
 
   form button {
+    width: 35% !important;
+    margin-left: 10px !important;
     font-size: 16px !important;
-    padding: 21px 0px 15px 0px !important;
+    padding: 21px 0px 18px 0px !important;
   }
 
   footer {
-    margin-top: 35px !important;
+    margin-top: 15px !important;
     margin-bottom: 30px !important;
   }
 
@@ -235,10 +289,14 @@
 
 }
 
-@media (min-width: 767px) and (max-width: 991.99px) {
+@media (min-width: 768px) and (max-width: 991.99px) {
   .container {
     padding: 40px;
     padding-bottom: 0;
+  }
+
+  .hidden-block {
+    display: none;
   }
 
   .logo {
@@ -488,7 +546,7 @@
   }
 }
 
-@media (min-width: 575px) and (max-width: 766.99px) {
+@media (min-width: 575px) and (max-width: 767.99px) {
   .container {
     padding: 40px;
     padding-bottom: 0;
@@ -952,7 +1010,7 @@
   }
 
   .hidden-block .button button {
-    max-width: 330px; 
+    max-width: 330px;
     height: 70px;
   }
 
